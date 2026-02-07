@@ -1,25 +1,46 @@
+#include <Wire.h>
 #include <DFRobot_BMX160.h>
-DFRobot_BMX160 bmx160;
 
-void setup(){
+DFRobot_BMX160 bmx;
+
+sBmx160SensorData_t accel;
+sBmx160SensorData_t gyro;
+sBmx160SensorData_t mag;
+
+void setup() {
   Serial.begin(115200);
-  delay(100);
-  
-  //init the hardware bmx160  
-  while (bmx160.begin() != true){
-    Serial.println("Initialization failed! Check your wiring.");
-    delay(1000);
+  Wire.begin();
+
+  Serial.println("Initializing BMX160...");
+
+  if (!bmx.begin()) {   // default address: 0x68
+    Serial.println("BMX160 not detected!");
+    while (1);
   }
-  delay(100);
+
+  Serial.println("BMX160 initialized!");
 }
 
-void loop(){
-  //Gets all the sensor data
-  sBmx160SensorData_t Omagn, Ogyro, Oaccel;
-  bmx160.getAllData(&Omagn, &Ogyro, &Oaccel);
+void loop() {
+  // Read all sensor data
+  bmx.getAllData(&accel, &gyro, &mag);
 
-  //Print out the accelerometer raw x, y, and z values to Serial Monitor
-  Serial.print("RAW: ");
-  Serial.print(Oaccel.x); Serial.print(" "); Serial.print(Oaccel.y    ); Serial.print(" "); Serial.print(Oaccel.z    ); Serial.println(" m/s^2"); 
-  delay(100);
+  Serial.println("-------------------------");
+
+  Serial.print("Accel (mg): ");
+  Serial.print(accel.x); Serial.print(", ");
+  Serial.print(accel.y); Serial.print(", ");
+  Serial.println(accel.z);
+
+  Serial.print("Gyro (dps): ");
+  Serial.print(gyro.x); Serial.print(", ");
+  Serial.print(gyro.y); Serial.print(", ");
+  Serial.println(gyro.z);
+
+  Serial.print("Mag (uT): ");
+  Serial.print(mag.x); Serial.print(", ");
+  Serial.print(mag.y); Serial.print(", ");
+  Serial.println(mag.z);
+
+  delay(500);
 }
