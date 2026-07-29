@@ -4,6 +4,8 @@
 
 1. [Introduction](#Introduction)
 2. [Using PlatformIO](#Using-PlatformIO)
+3. [Arduino Setup Guide](./Arduino/README.md)
+4. [Sensors Guide](./Sensors/README.md)
 
 ## Introduction
 

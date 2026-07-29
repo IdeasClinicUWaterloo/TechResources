@@ -7,6 +7,8 @@
      - [Model Training](#1.4)
      - [Model Evaluation and Tuning](#1.5)
      - [Model Deployment](#1.6)
+
+For computer vision specifically, see the [Machine Vision section](./Machine_Vision/README.md) (OpenCV basics) and its [MediaPipe pose detection guide](./Machine_Vision/Health_Related_Application.md).
     
 <h2 id = '1'> Machine Learning</h2>
 Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables systems to learn patterns from data and make predictions or decisions without being explicitly programmed.
