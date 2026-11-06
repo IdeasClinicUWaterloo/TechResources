@@ -56,19 +56,19 @@ How to use media queries to have your webpage to adapt to different screens (lap
         /* code */
     }
 - When you want to connect the variables to the JS file, within the .cpp file you are building and initalizaing the web server you will need a handleData function. In handleData, you will start a Json string to store the values. String values require escaped quotation marks (\") while numeric values do not. If the value is stored as an enum, create a helper function such as enumToString() to convert it into a readable string before adding it to the JSON. For C++ std::string values, use .c_str() when appending them to an Arduino String. Remember that every JSON field except the last must end with a comma, otherwise dashboard.js will fail to parse the data. For example: 
-    String json = "{";
-    json += "\"value1\":\""; 
-    json += enumToString(value1cpp).c_str();
-    json += "\",";
-    json += "\"value2\":\""; 
-    json += value2cpp.c_str();
-    json += "\",";
-    json += "\"value3ID\":";
-    json += String(value3cpp);
-    json += ",";
-    json += "}";
-
+    String json = "{"; \n 
+    json += "\"value1\":\""; \n
+    json += enumToString(value1cpp).c_str(); \n
+    json += "\","; \n
+    json += "\"value2\":\""; \n
+    json += value2cpp.c_str(); \n
+    json += "\","; \n
+    json += "\"value3ID\":"; \n 
+    json += String(value3cpp); \n
+    json += ","; \n
+    json += "}"; \n
 In the example, value1, value2, and value3 are  and the value1cpp, value2cpp, and value3cpp are the variable names. Together they will display value1: 123 when you go to http://esp32-id/data (not a link) in your browser. 
+
 - Using div in HTML is a very good way to group elements together to make them easier to style in CSS
 - If you want a certain feature to show up on a laptop vs phone display you can give each variation a class in the HTML file and in the CSS file, in the medie query use display: none; for the laptop feature and display: inline; for the phone feature
 - In JavaScript, an async function can use await and automatically returns a promise, while a normal function executes immediately and returns the value directly.
