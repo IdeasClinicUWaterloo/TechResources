@@ -56,17 +56,17 @@ How to use media queries to have your webpage to adapt to different screens (lap
         /* code */
     }
 - When you want to connect the variables to the JS file, within the .cpp file you are building and initalizaing the web server you will need a handleData function. In handleData, you will start a Json string to store the values. String values require escaped quotation marks (\") while numeric values do not. If the value is stored as an enum, create a helper function such as enumToString() to convert it into a readable string before adding it to the JSON. For C++ std::string values, use .c_str() when appending them to an Arduino String. Remember that every JSON field except the last must end with a comma, otherwise dashboard.js will fail to parse the data. For example: 
-    String json = "{"; \n 
-    json += "\"value1\":\""; \n
-    json += enumToString(value1cpp).c_str(); \n
-    json += "\","; \n
-    json += "\"value2\":\""; \n
-    json += value2cpp.c_str(); \n
-    json += "\","; \n
-    json += "\"value3ID\":"; \n 
-    json += String(value3cpp); \n
-    json += ","; \n
-    json += "}"; \n
+    String json = "{"; <br>
+    json += "\"value1\":\""; <br>
+    json += enumToString(value1cpp).c_str(); <br>
+    json += "\","; <br>
+    json += "\"value2\":\""; <br>
+    json += value2cpp.c_str(); <br>
+    json += "\","; <br>
+    json += "\"value3ID\":"; <br>
+    json += String(value3cpp); <br>
+    json += ","; <br>
+    json += "}"; <br>
 In the example, value1, value2, and value3 are  and the value1cpp, value2cpp, and value3cpp are the variable names. Together they will display value1: 123 when you go to http://esp32-id/data (not a link) in your browser. 
 
 - Using div in HTML is a very good way to group elements together to make them easier to style in CSS
