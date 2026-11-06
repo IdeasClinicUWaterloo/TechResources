@@ -44,7 +44,7 @@ To upload the code to the Arduino, ensure that the correct port is selected, and
 All communication is done via the Serial port. You can view the serial port using your Arduino IDE by going to tools -> serial monitor from the menu at the top. You can also open it up as a graph view by opening the serial plotter in the same menu. Whenever there is a Serial.print() or Serial.println() command in the Arduino code, that information should show up in your serial monitor. 
 
 #### Baud Rate
-Any test code that uses the serial port runs a setup function to initialize the code settings. Serial.begin() initializes the Serial Monitor baud rate. Whatever number is initialized in the Setup() function must match the baud rate value in the Serial Monitor. Most of the time, your IDE will change it automatically, but it is important to check if things are not working. 
+Any test code that uses the serial port runs a setup function to initialize the code settings. Serial.begin() initializes the Serial Monitor baud rate. Whatever number is initialized in the Setup() function must match the baud rate value in the Serial Monitor. Most of the time, your IDE will change it automatically, but it is important to check if things are not working. For example, Arduino has a baud rate of 9600 bps (bits per second) so it will also need Serial.begin(9600) in void setup() while an ESP32 has a baud rate of 115200 bps so it will need Serial.begin(11520). 
 
 #### Arduino Code
 * As well, the Arduino can read and respond to information sent to it from the serial port. 
