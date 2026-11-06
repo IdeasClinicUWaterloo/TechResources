@@ -55,7 +55,7 @@ How to use media queries to have your webpage to adapt to different screens (lap
     .info-card-2 {
         /* code */
     }
-- When you want to connect the variables to the JS file, within the .cpp file you are building and initalizaing the web server you will need a handleData function. In handleData, you will start a Json string to store the values. String values require escaped quotation marks (\") while numeric values do not. If the value is stored as an enum, create a helper function such as enumToString() to convert it into a readable string before adding it to the JSON. For C++ std::string values, use .c_str() when appending them to an Arduino String. Remember that every JSON field except the last must end with a comma, otherwise dashboard.js will fail to parse the data. For example: 
+- When you want to connect the variables to the JS file, within the .cpp file you are building and initalizaing the web server you will need a handleData function. In handleData, you will start a Json string to store the values. String values require escaped quotation marks (\") while numeric values do not. If the value is stored as an enum, create a helper function such as enumToString() to convert it into a readable string before adding it to the JSON. For C++ std::string values, use .c_str() when appending them to an Arduino String. Remember that every JSON field except the last must end with a comma, otherwise dashboard.js will fail to parse the data. For example: <br>
     String json = "{"; <br>
     json += "\"value1\":\""; <br>
     json += enumToString(value1cpp).c_str(); <br>
