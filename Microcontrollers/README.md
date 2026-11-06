@@ -35,3 +35,8 @@ This means that to collaborate with other people on your project, each person ha
 
 1. Install Visual Studio Code using the instructions here
 2. Install PlatformIO using [the PlatformIO installation instructions](https://platformio.org/install/ide?install=vscode)
+
+If you have errors in VS Code/PlatformIO saying "#include errors detected. please update your includePath. ..." and/or "cannot open source file "freertos/FreeRTOS.h" (dependency of "Arduino.h")" but eveyrthing is compiling and uploading then you can ignore the issues and continue to work. 
+
+### Connecting VS Code and PlatformIO with Git/GitHub 
+Tutorial Video to follow: https://www.youtube.com/watch?v=NdgMuZBpyo8
