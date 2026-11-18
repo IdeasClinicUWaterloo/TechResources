@@ -5,8 +5,32 @@ If you are looking for guides on all of the technologies used in IDEAs Clinic ch
 > [!info]
 > This repository is currently a work in progress.
 
-**Table of contents:**
+## Directory
 
+## General Tech
+- [Git and GitHub](./Git+Github/README.md)
+- [Terminal Commands](ADD LINK), this section is under development and not yet avaliable.
+
+### Programming
+- [Python](./Python/README.md)
+- [Arduino](./Microcontrollers/Arduino/README.md)
+- [Website/Web-App Development](./Website_Development/README.md)
+- [FPGA](./FPGA/README.md)
+- [Machine Learning](./Machine_Learning/README.md)
+- [Git and GitHub](./Git+Github/README.md)
+- [Vibe Coding](./Vibe_Coding/README.md)
+
+### Prototyping and Development
+- [Git and GitHub](./Git+Github/README.md)
+- [3D Modeling & Printing](./3D_Modeling_and_Printing/README.md)
+- [Breadboarding and Circuits](ADD LINK), this section is under development and not yet avaliable.
+- [Microcontrollers](./Microcontrollers/README.md)
+- [Sensors and Components](./Microcontrollers/Sensors+Components/README.md)
+- [Figma UI Design](./UI_Design/README.md)
+- [Vibe Coding](./Vibe_Coding/README.md)
+
+
+old ToC, to delete later:
 - The [microcontrollers section](./Microcontrollers/README.md) provides a general guide on using the Arduino and STM32 boards.
   These are also called "embedded boards" or "embedded systems."
 - The [FPGA section](./fpga/README.md) covers how-to guides and code samples for the FPGA boards owned by the IDEAs Clinic.
