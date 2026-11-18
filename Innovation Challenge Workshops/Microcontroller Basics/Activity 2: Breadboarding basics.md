@@ -4,9 +4,14 @@ A breadboard is a prototyping tool used for building and testing circuits withou
 
 The power rails, running along the sides, are used for connecting power (e.g., 3.3V or GND) throughout your circuit. The terminal strips in the center are arranged in rows and connect vertically underneath the board, making it possible to link components without direct wiring. The image below shows a how the connections are made internally on a typical breadboard.
 
+[Breadboard connections](images/breadboard_connections.png)
+
 ## Wiring Conventions 
 When wiring circuits or creating schematics, it’s helpful to follow color conventions to make your work easier to read, debug, and share. A common standard is to use red wires for power (Vcc) and black/blue wires for ground (GND).
 
 Beyond that, it’s up to you to define your own consistent system. A good practice is to use one wire color per signal or per section of a circuit, which keeps things organized — especially as circuits grow more complex.
 
 When you’re just starting out, it’s okay to use a variety of colors to help visualize how different parts of the circuit connect and how signals flow. Over time, developing your own consistent wiring style will make building and troubleshooting much easier.
+
+## Voltage Matching 
+In order to create a safe and effective circuit, the microcontroller voltage and the components voltage needs to match. If the microcontroller voltage is too high for the component then the component will be fried and if it is too low it will not be sufficiently powered and not turn on. 
