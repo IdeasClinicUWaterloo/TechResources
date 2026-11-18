@@ -24,7 +24,7 @@ It would be benificial to link to where the component was purchased here as well
 
 ### Set-up
 
-bla bla bla... I based my set-up on the set-up shown by this external resource [1].
+bla bla bla... I based my set-up on the set-up shown by this [external resource](https://www.w3schools.com/).
 
 ### Programming
 
@@ -36,4 +36,4 @@ Link to example code, and give an overview of what it does.
 
 ## External Resources and Citations
 
-- [1]: https://www.w3schools.com/
+- [www.w3schools.com](https://www.w3schools.com/)
