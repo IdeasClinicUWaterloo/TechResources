@@ -4,7 +4,7 @@ This Folder contains all the sensors that are utilized with the Seed Grove Kit
 
 ## Directory
 
-- [Acceleromter](# Accelerometer)
+- [Acceleromter](#Accelerometer)
 
 ## Sensor Setup
 
