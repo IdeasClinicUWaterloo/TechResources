@@ -1,7 +1,7 @@
 # Component Name
-> Created by: *Author Name* (Research/Testing), *Author Name* (Review), ...
-> Last Updated: *2026/11/18*
-> Progress: *Research/Testing/Developing Documentation/Review/Complete*
+> Created by: *Author Name* (Research/Testing), *Author Name* (Review), ...  
+> Last Updated: *2026/11/18*  
+> Progress: *Research/Testing/Developing Documentation/Review/Complete*  
 
 Every component should have it's own folder, unless it must be used in conjunction with something else (ex. Grove). This folder should ideally contain a README.md, the data sheet, and a basic example code file (with comments). You can copy this folder and rename it to use as a base. This exact format does not need to be followed, but we should aim for consistency between documents.
 
