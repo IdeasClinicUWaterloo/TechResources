@@ -2,7 +2,11 @@
 
 This Folder contains all the sensors that are utilized with the Seed Grove Kit
 
-# Sensor Setup
+## Directory
+
+- [Acceleromter](### Accelerometer)
+
+## Sensor Setup
 
 Use the resources under each sensor type to learn more about how the sensor works, what libraries are needed, and how to connect it to your arduino.
 For the test codes provided for each sensor, open a blank Arduino IDE tab to copy and paste to code into.
