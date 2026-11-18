@@ -4,7 +4,20 @@ This Folder contains all the sensors that are utilized with the Seed Grove Kit
 
 ## Directory
 
-- [Acceleromter](# Accelerometer)
+- [Accelerometer](#Accelerometer)
+- [Button/Touch Sensor](#buttontouch-sensor)
+- [Buzzer](#buzzer)
+- [LCD Display](#lcd-display)
+- [Colour Sensor](#colour-sensor)
+- [LEDs](#leds)
+- [Pulse Oximeter](#pulse-oximeter)
+- [Servo](#servo)
+- [Sound Sensor](#sound-sensor)
+- [Temperature Sensor](#temperature-sensor)
+- [Light Sensor](#light-sensor)
+- [Relay](#relay)
+- [Rotary Angle Sensor](#rotary-angle-sensor)
+
 
 ## Sensor Setup
 
