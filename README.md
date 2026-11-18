@@ -29,6 +29,9 @@ If you are looking for guides on all of the technologies used in IDEAs Clinic ch
 - [Figma UI Design](./UI_Design/README.md)
 - [Vibe Coding](./Vibe_Coding/README.md)
 
+### Sensors and Components
+For a complete list, see: [Sensors and Components](./Microcontrollers/Sensors+Components/README.md).
+
 
 old ToC, to delete later:
 - The [microcontrollers section](./Microcontrollers/README.md) provides a general guide on using the Arduino and STM32 boards.
