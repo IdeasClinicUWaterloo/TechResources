@@ -1,6 +1,6 @@
 # Sensors
 
-This Folder contains all the sensors that are utilized with the Seed Grove Kit
+This Folder contains all the sensors that are utilized with the Seed Grove Kit.
 
 ## Directory
 
