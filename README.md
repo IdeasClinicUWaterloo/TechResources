@@ -23,7 +23,7 @@ If you are looking for guides on all of the technologies used in IDEAs Clinic ch
 ### Prototyping and Development
 - [Git and GitHub](./Git+Github/README.md)
 - [3D Modeling & Printing](./3D_Modeling_and_Printing/README.md)
-- [Breadboarding and Circuits](ADD LINK), this section is under development and not yet avaliable.
+- [Breadboarding and Circuits](ADD LINK), this section is under development and not yet available.
 - [Microcontrollers](./Microcontrollers/README.md)
 - [Sensors and Components](./Microcontrollers/Sensors+Components/README.md)
 - [Figma UI Design](./UI_Design/README.md)
@@ -31,6 +31,17 @@ If you are looking for guides on all of the technologies used in IDEAs Clinic ch
 
 ### Sensors and Components
 For a complete list, see: [Sensors and Components](./Microcontrollers/Sensors+Components/README.md).
+- [Grove Kits](./Microcontrollers/Sensors+Components/Grove_Kit/README.md)
+
+
+
+
+
+
+
+
+
+
 
 
 old ToC, to delete later:
