@@ -125,6 +125,8 @@ Here is a skeleton code to help you execute the objectives listed above - comple
   if (buttonState == HIGH) {
     // TODO: starting message
     for (int i = TIMER; i >= 0; i--) {
+      // TODO: print the remaining time
+      // TODO: delay before printing next second 
     }
     // TODO: turn the LED on
     // TODO: display ending message 
