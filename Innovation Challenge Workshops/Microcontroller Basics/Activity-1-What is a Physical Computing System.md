@@ -12,3 +12,9 @@ Based on the Input and Output in the table below fill in what the Microcontrolle
 | Button press | | Online display updates number of button presses |
 | Switch flipped | | Motor turns off or on |
 | Phone app command | | Turns on a fan |
+
+<div align="center">
+  <a href="Software Set Up.md">⬅ Previous</a> | 
+  <a href="Activity-1-What is a Physical Computing System.md">⬆ Top</a> |
+  <a href="Activity-2-Breadboarding Basics.md">Next ➡</a>
+</div>
