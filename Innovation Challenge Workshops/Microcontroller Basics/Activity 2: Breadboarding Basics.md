@@ -25,21 +25,21 @@ These electrical circuit fundamentals are important to understand and take into 
 ## LED Polarity 
 Many electronic components, such as resistors, are non-polar. This means that the orientation of the component relative to the flow of electricity does not matter. Other components are polar, where the orientation of the component relative to the flow of electricity does matter. One such component is a diode. Diodes are designed specifically to allow electricity to flow in a certain direction and not in the other. LEDs (light emitting diodes) are diodes that also emit light. The image below shows an LED.
 
-![LED](assets/led.png)
+![LED](images/led.png) 
 
 Notice that one leg is longer than the other. The longer leg is the anode and is connected to a positive voltage. The shorter leg is the cathode and is connected to a negative voltage (GND). Another method to distinguish polarity is to look at the base of the LED case and where a flat spot can be felt/seen indicates the cathode/negative leg. If the LED is connected in the wrong orientation, then no electricity will flow, and the LED will not light up.
 
 ## Pull Up and Down Resistors
 If a line in a circuit isn’t explicitly set to a voltage it is considered “floating”. In electronics, it is undesirable for any lines to be floating, so we use pull-up and pull-down resistors to passively set the voltage of lines that are not being set otherwise. The image below shows the wiring diagram for pull-up and pull-down resistors. Please note that MCU stands for microcontroller unit, which in our case is the Arduino Uno.
 
-![Pull Up and Pull Down Resistors](assets/resistors.png)
+![Pull Up and Pull Down Resistors](images/pu_pd_resistors.png)
 
 Consider the pull-down resistor diagram. When the switch is open, the voltage on the MCU pin is very close to ground (if the pull-down resistor has a low resistance, which they typically do). When the switch is closed, the voltage on the MCU pin is 5V, and the resistor measures 5V across. This behaviour is mirrored for the pull-up resistor.
 
 ## Building a Circuit 
 You will be building a circuit where you will control an LED with a button. When the button is pressed, after a small delay the LED will turn on. You will program the delay in the next section of the workshop and below is circuit that you will build. 
 
-![LED - Pushbutton Circuit](../../assets/led_pb_circuit.png)
+![LED - Pushbutton Circuit](images/led_pb_circuit.png)
 
 Here’s how the circuit works:
 1. The button is connected between the 5V power rail and a digital input pin (e.g., pin 2). When the button is pressed, the pin is connected directly to 5V, and the Arduino will read the pin as “High”.
@@ -74,4 +74,4 @@ The resistor, named a pull-down resistor, is there to limit the amount of curren
    - LED’s cathode (shorter leg) to the breadboard’s ground rail
    - Ground rail to Arduino’s GND
 
-![Sample Layout for Pushbutton and LED](../../assets/sample_layout_pb_led.png)
+![Sample Layout for Pushbutton and LED](images/sample_layout_pb_led.png)
