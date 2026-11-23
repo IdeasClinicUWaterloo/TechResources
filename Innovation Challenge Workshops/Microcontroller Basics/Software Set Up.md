@@ -19,7 +19,7 @@ You will first need to install Visual Studio Code and then the PlatformIO extens
 5. To get to the file where you will add your code (`main.cpp`), you can look on the left panel and click on the Explorer button (first one) then under your project go to src > `main.cpp`. There you can add your code. 
 
 <div align="center">
-  <a href="README.md">⬅ Previous/a> | 
+  <a href="README.md">⬅ Previous</a> | 
   <a href="Software Set Up.md">⬆ Top</a> |
   <a href="Activity 1: What is a Physical Computing System?.md">Next ➡</a>
 </div>
