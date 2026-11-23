@@ -17,3 +17,9 @@ You will first need to install Visual Studio Code and then the PlatformIO extens
 3. Once it has finished installing, restart VS Code.
 4. To create a new project, PIO Home should open automatically (to access it generally, click on the PlatformIO icon on the left panel and go **Quick Access** > **Open**) then click **New Project**, title your project, in board type "Arduino Uno R4 Minima" and make sure the framework is Arduino. You can also have your project sit anywhere on your laptop by unchecking "Use default location". Then click **Finish**. The time for the project to initialize may take up to 10-20 minutes so be sure to have this done before attending the workshop.
 5. To get to the file where you will add your code (`main.cpp`), you can look on the left panel and click on the Explorer button (first one) then under your project go to src > `main.cpp`. There you can add your code. 
+
+<div align="center">
+  <a href="README.md">⬅Previous/a>
+  <a href="Software Set Up.md">⬆ Top</a> |
+  <a href="Activity 1: What is a Physical Computing System?.md">Next ➡</a>
+</div>
