@@ -20,6 +20,6 @@ Microcontrollers are small one-chip computers that are at the core of much of to
 
 <div style = "display: flex; justify-content: space-between; align-items: center;">
   <span> </span>
-  <span> [Top](REAME.md)</span>
-  <span> Next: [Software Set Up](Software Set Up.md) </span>
+  <span> <a href=\"README.md\">Top</a></span>
+  <span>Next: </b> <a href=\"Software Set Up.md\">Software Set Up</a></span>
 </div>
