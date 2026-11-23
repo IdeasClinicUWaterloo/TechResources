@@ -76,6 +76,11 @@ Countdown finished!
   }
   ```
 
+## Serial Monitor 
+The Serial Monitor is an incredibly useful tool which can be used for debugging, testing concepts, or to communicate with the microcontroller. It displays and sends data over a serial connection (usually USB) between a computer and microcontroller. It uses `Serial.print()` and `Serial.println()` to display information to monitor and `Serial.begin(9600)` uses to match the baud rate settings. To set the baud rate in Arduino IDE Serial Monitor you can select the matching baud rate from the baud rate dropdown which is located at the top right of the Serial Monitor panel. To set the baud rate in PlatformIO, open the `platformio.ini` which is in the root of the project folder and add this line with the correct baud rate: `monitor_speed = 9600`. 
+
+You can open the Serial Monitor in Arduino IDE by by clicking the magnifying glass icon in the top-right corner, going to Tools > Serial Monitor, or pressing Ctrl + Shift + M (Cmd + Shift + M on Mac). To open it in PlatformIO you can click the plug icon on the PlatformIO status bar at the bottom of VS Code.
+
 ## Variable Definitions 
 Variable definitions sit above `setup()` as they declare pins that are used and other variables that will be used.
 
