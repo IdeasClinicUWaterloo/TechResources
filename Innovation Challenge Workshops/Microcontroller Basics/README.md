@@ -18,8 +18,6 @@ Microcontrollers are small one-chip computers that are at the core of much of to
 4. Activity 2: Breadboarding Basics 
 5. Activity 3: Meet the Microcontroller 
 
-<div style = "display: flex; justify-content: space-between; align-items: center;">
-  <span> </span>
-  <span> <a href=\"README.md\">Top</a></span>
-  <span>Next: </b> <a href=\"Software Set Up.md\">Software Set Up</a></span>
+<div align="center">
+  [⬆ Top](README.md) | [Next ➡](Software Set Up.md)
 </div>
