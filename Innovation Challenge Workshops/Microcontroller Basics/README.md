@@ -7,6 +7,7 @@ Microcontrollers are small one-chip computers that are at the core of much of to
 - 1 LED
 - 1 Breadboard
 - 1 Resistor (10 kΩ)
+- 1 Resistor (220 Ω)
 - 1 Arduino Uno
 - Assorted Wires
 
@@ -16,3 +17,11 @@ Microcontrollers are small one-chip computers that are at the core of much of to
 3. Activity 1: What is a physical computing system? 
 4. Activity 2: Breadboarding Basics 
 5. Activity 3: Meet the Microcontroller 
+
+<table width="100%">
+  <tr>
+    <td align="left" width="33%"> </td>
+    <td align="center" width="33%">[Top](README.md)</td>
+    <td align="right" width="33%">**Next:**[Software Set Up](Software Set Up.md)</td>
+  </tr>
+</table>
