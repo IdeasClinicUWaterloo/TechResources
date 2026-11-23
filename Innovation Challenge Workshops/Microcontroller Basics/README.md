@@ -19,5 +19,6 @@ Microcontrollers are small one-chip computers that are at the core of much of to
 5. Activity 3: Meet the Microcontroller 
 
 <div align="center">
-  [⬆ Top](README.md) | [Next ➡](Software Set Up.md)
+  <a href="README.md">⬆ Top</a> |
+  <a href="Software Set Up.md">Next ➡</a>
 </div>
