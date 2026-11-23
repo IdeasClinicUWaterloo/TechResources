@@ -138,3 +138,9 @@ Here are some extra challenges you can add onto the activity to improve the basi
 - Have a second button press turn off the LED and the next turn on the countdown and so on
 - Have the LED flash during the timer and flashes more frequently as time ticks down
 - Your idea!
+
+<div align="center">
+  <a href="Activity-2-Breadboarding Basics.md">⬅ Previous</a> | 
+  <a href="Activity-3-Meet the Microcontroller.md">⬆ Top</a> |
+  <a href="README.md">Back to beginning ➡</a>
+</div>
