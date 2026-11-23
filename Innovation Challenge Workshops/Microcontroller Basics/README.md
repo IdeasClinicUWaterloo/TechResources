@@ -12,11 +12,11 @@ Microcontrollers are small one-chip computers that are at the core of much of to
 - Assorted Wires
 
 ## Table of Contents 
-1. Overview 
-2. Background Knowledge 
-3. Activity 1: What is a physical computing system? 
-4. Activity 2: Breadboarding Basics 
-5. Activity 3: Meet the Microcontroller 
+1. [Overview](README.md) 
+2. [Software Set Up](Software%20Set%20Up.md)
+3. [Activity 1: What is a physical computing system?](Activity-1-What%20is%20a%20Physical%20Computing%20System.md)
+4. [Activity 2: Breadboarding Basics](Activity-2-Breadboarding%20Basics.md)
+5. [Activity 3: Meet the Microcontroller](Activity-3-Meet%20the%20Microcontroller.md) 
 
 <div align="center">
   <a href="README.md">⬆ Top</a> |
