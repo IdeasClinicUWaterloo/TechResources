@@ -21,5 +21,5 @@ You will first need to install Visual Studio Code and then the PlatformIO extens
 <div align="center">
   <a href="README.md">⬅ Previous</a> | 
   <a href="Software Set Up.md">⬆ Top</a> |
-  <a href="Activity-1-What is a Physical Computing System?.md">Next ➡</a>
+  <a href="Activity-1-What is a Physical Computing System.md">Next ➡</a>
 </div>
