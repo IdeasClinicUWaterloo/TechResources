@@ -75,3 +75,9 @@ The resistor, named a pull-down resistor, is there to limit the amount of curren
    - Ground rail to Arduino’s GND
 
 ![Sample Layout for Pushbutton and LED](images/sample_layout_pb_led.png)
+
+<div align="center">
+  <a href="Activity-1-What is a Physical Computing System.md">⬅ Previous</a> | 
+  <a href="Activity-2-Breadboarding Basics.md">⬆ Top</a> |
+  <a href="Activity-3-Meet the Microcontroller.md">Next ➡</a>
+</div>
