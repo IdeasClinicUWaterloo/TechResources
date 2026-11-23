@@ -33,8 +33,8 @@ If you are looking for guides on all of the technologies used in IDEAs Clinic ch
 For a complete list, see: [Sensors and Components](./Microcontrollers/Sensors+Components/README.md).
 - [Grove Kits](./Microcontrollers/Sensors+Components/Grove_Kit/README.md)
 
-
-
+### Innovation Challenge Workshops 
+- [Microcontroller Basics](./Microcontrollers/Microcontroller%20Basics%20Innovation%20Challenge%20Workshop/README.md)
 
 
 
