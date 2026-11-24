@@ -7,11 +7,12 @@ Physical computing systems can be found in many everyday technologies, including
 Based on the Input and Output in the table below fill in what the Microcontroller would do to complete the system. 
 | Input | Microcontroller | Output |
 | ----- | --------------- | ------ | 
-| Motion sensor | | LED flashes |
+| Motion sensor | Processes the motion signal from the sensor and activates the alert | LED flashes |
 | Sound sensor | | Visual doorbell alert | 
 | Button press | | Online display updates number of button presses |
 | Switch flipped | | Motor turns off or on |
 | Phone app command | | Turns on a fan |
+| Keypad | | Door opens |
 
 <div align="center">
   <a href="Software Set Up.md">⬅ Previous</a> | 
