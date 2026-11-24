@@ -56,7 +56,7 @@ Within the `loop()` function try to implement each of these features:
 - Display timer start and completion messages in the Serial Monitor
 - Turn on LED once countdown finishes
 
-You should end up with similar output: 
+You should end up with a similar output: 
 ```
 Countdown started!
 5
@@ -150,7 +150,7 @@ Here is a skeleton code to help you execute the objectives listed above - comple
 Here are some extra challenges you can add onto the activity to improve the basic timer: 
 - Have a second button press turn off the LED and the next turn on the countdown and so on
 - Have the LED flash during the timer and flashes more frequently as time ticks down
-- Your idea!
+- Your ideas!
 
 <div align="center">
   <a href="Activity-2-Breadboarding Basics.md">⬅ Previous</a> | 
