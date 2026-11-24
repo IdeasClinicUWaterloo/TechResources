@@ -8,7 +8,7 @@ You can download the Arduino IDE from the [official Arduino website](https://www
 3. Select **Install** and accept all prompts for installation
 4. Once the installation is complete, please confirm you see the following "Tools > Boards > Arduino UNO R4 Boards > Arduino UNO R4 Minima"
 5. You can start typing and programming in the file opened up. To create a new sketch (new project) go to **File** > **New Sketch**. To create a new file within your project click the drop down arrow to the right of the file tabs in the IDE. Select 'New Tab' and then name the file.You can add .h, .c and .cpp files just as you would in other C or C++ environments.
-6. The blank sketch that opens up for you is the file which you will be adding your code. 
+6. The blank sketch that opens up for you is the file where you will be adding your code. 
 
 ## How to set up Visual Studio Code and PlatformIO
 You will first need to install Visual Studio Code and then the PlatformIO extension. You can download VS Code from the [official VS Code website for Windows](https://code.visualstudio.com/docs/setup/windows) or from the [official VS Code website for MacOS](https://code.visualstudio.com/docs/setup/mac). Once you have finished through the set up, start the application and do the following: 
