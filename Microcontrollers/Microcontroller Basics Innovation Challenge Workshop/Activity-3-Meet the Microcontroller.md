@@ -13,7 +13,20 @@ void loop() {
 
 }
 ```
-In PlatformIO you will see some additional sample code which you can delete and just remain with the same code skeleton as above with the exception to leave `#include <Arduino.h>` above `void setup()`. 
+In PlatformIO you will see some additional sample code which you can delete and remain with the following code:
+```
+#include <Arduino.h>
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}
+
+```
 
 ## Arduino Uno Board 
 The Arduino UNO is a microcontroller board based on the ATmega328P. It has 14 digital input/output pins and 6 analog inputs. It’s an easy-to-use system designed for hobbyists.
