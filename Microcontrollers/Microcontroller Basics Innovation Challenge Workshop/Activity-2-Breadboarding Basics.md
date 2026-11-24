@@ -34,7 +34,7 @@ If a line in a circuit isn’t explicitly set to a voltage it is considered “f
 
 ![Pull Up and Pull Down Resistors](images/pu_pd_resistors.png)
 
-Consider the pull-down resistor diagram. When the switch is open, the voltage on the MCU pin is very close to ground (if the pull-down resistor has a low resistance, which they typically do). When the switch is closed, the voltage on the MCU pin is 5V, and the resistor measures 5V across. This behaviour is mirrored for the pull-up resistor.
+Consider the pull-down resistor diagram. When the switch is open, the voltage on the MCU pin is very close to ground (if the pull-down resistor has a low resistance, which they typically do). When the switch is closed, the voltage on the MCU pin is 5V, and the resistor measures 5V across. This behaviour is mirrored for the pull-up resistor. A typical pull up and pull down resistor value is 4.7 kΩ and is between 1-10 kΩ (the circuit you will build has a 10 kΩ pull down resistor). 
 
 ## Building a Circuit 
 You will be building a circuit where you will control an LED with a button. When the button is pressed, after a small delay the LED will turn on. You will program the delay in the next section of the workshop and below is circuit that you will build. 
@@ -46,21 +46,21 @@ Here’s how the circuit works:
 2. When the button is not pressed, the pin is tied to ground through the 10kΩ pull-down resistor between the input pin and GND. This ensures the input pin not floating when the button is not pressed.
 3. The LED is connected in series with a current-limiting resistor to prevent it from burning out. The resistor connects to a digital output pin, which can be toggled HIGH or LOW to turn the LED on or off. Note that the LED must be oriented correctly, with the longer leg (anode) connected to the resistor (and then to the digital output), and the shorter leg (cathode) connected to GND. If you flip the LED, it will not light up.
 
-If you've never used a breadboard before, please refer to Figure 2 and follow these instructions. We are here to help clarify any of these steps. Please ask us if you would like!
+If you've never used a breadboard before, please refer to diagram below and follow these instructions. We are here to help clarify any of these steps. Please ask us if you would like!
 
 1. Place the push button on the breadboard straddling the centre divider. To wire up the push button correctly:
    a) Connect one push button leg to the breadboard's power rail with a red wire.
    b) Using a resistor as a "bridge," connect the other push button leg through the resistor to the ground rail.
 
-The resistor, named a pull-down resistor, is there to limit the amount of current which flows to ground while the push button is activated (this is a consequence of how this circuit was designed). Any current which flows past the resistor while the push button is activated is strictly energy wasted, but it is an acceptable tradeoff because the button will not be activated often and the current is very small. How much power would be dissapated by the resistor while the push button is pressed?
+The resistor, named a pull-down resistor, is there to limit the amount of current which flows to ground while the push button is activated (this is a consequence of how this circuit was designed). Any current which flows past the resistor while the push button is activated is strictly energy wasted, but it is an acceptable tradeoff because the button will not be activated often and the current is very small. 
 
 2. Place the LED on the breadboard. To wire up the LED correctly:
    a) Connect the LED’s cathode (shorter leg) to the breadboard’s ground rail (black wire)
    b) Connect the LED’s anode (longer leg) to one end of the 220 Ω resistor (red, red, brown). Put the resistor’s other leg in a different row.
 
 3. Connect the circuit to the Arduino Uno
-   a) Connect the pushbutton's unconnected lead to digital pin 3 (this is the green wire in Figure 2).
-   b) Connect the 220 Ω resistor's unconnected leg to digital pin 2 (this is the blue wire in Figure 2).
+   a) Connect the pushbutton's unconnected lead to digital pin 3 (this is the green wire in diagram).
+   b) Connect the 220 Ω resistor's unconnected leg to digital pin 2 (this is the blue wire in diagram).
    c) Connect the breadboard’s power rail to the 5V pin on the Arduino with a red wire
    d) Connect the ground rail to the Arduino’s GND pin with a black wire
 
