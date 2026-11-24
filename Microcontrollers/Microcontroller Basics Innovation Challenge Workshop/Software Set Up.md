@@ -1,5 +1,5 @@
 # Software Set Up 
-In order to upload code to the Arduino, you will need a IDE (Integrated Development Environment) where you can write and upload your code. You can use Arduino IDE or Visual Studio Code with the PlatformIO extension. The Ardunio IDE is ideal for prototyping and for basic, quick uploads and programs. While VS Code and PlatformIO is more powerful and complex and includes more features such as a Git/GitHub connection useful for making projects. You are free to install and use either IDE 
+In order to upload code to the Arduino, you will need a IDE (Integrated Development Environment) where you can write and upload your code. You can use Arduino IDE or Visual Studio Code with the PlatformIO extension. The Ardunio IDE is ideal for prototyping and for basic, quick uploads and programs, while VS Code and PlatformIO is more powerful and complex and includes more features such as a Git/GitHub connection useful for making projects. You are free to install and use either IDE.
 
 ## How to setup Arduino IDE
 You can download the Arduino IDE from the [official Arduino website](https://www.arduino.cc/en/software/). Once you have finished clicking through the set up, start the application and do the following: 
