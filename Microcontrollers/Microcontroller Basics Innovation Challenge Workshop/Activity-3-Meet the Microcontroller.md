@@ -20,7 +20,7 @@ The Arduino UNO is a microcontroller board based on the ATmega328P. It has 14 di
 
 ![Arduino Uno](images/arduino_uno.png)
 
-A pinout map shows the available pins on your Arduino Uno microcontroller and what functions those pins can be used for. Each pin can have multiple uses:
+The following pinout map shows the available pins on your Arduino Uno microcontroller and what functions those pins can be used for. Each pin can have multiple uses:
 - Digital I/O (Input/Output) allows the Arduino Uno to read and write to components (LEDs, buttons, etc.) via digital signals. Digital output pins can send signals, either HIGH (5V) or LOW (0V), to other components. Digital input pins can read the state of a digital signal, such as whether a button is pressed or not. In this activity you’ll use a digital output to turn an LED on and off, and a digital input to detect whether a button is pressed.
 - Analog inputs read continuous voltage from sensors or potentiometers.
 - Communication protocols allow the Arduino Uno to communicate with peripheries via I2C, SPI and UART. 
