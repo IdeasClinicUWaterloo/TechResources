@@ -2,7 +2,7 @@
 ## How a Breadboard Works 
 A breadboard is a prototyping tool used for building and testing circuits without the need for soldering. It consists of rows and columns of conductive strips underneath a plastic surface with holes, allowing you to easily insert components and wires to form electrical connections. A typical breadboard is divided into two main areas: the power rails and the terminal strips.
 
-The power rails, running along the sides, are used for connecting power (e.g., 3.3V or GND) throughout your circuit. The terminal strips in the center are arranged in rows and connect vertically underneath the board, making it possible to link components without direct wiring. The image below shows a how the connections are made internally on a typical breadboard.
+The power rails, running along the sides (usually red and blue), are used for connecting power (e.g., 3.3V or GND) throughout your circuit. The terminal strips in the center are arranged in rows and connect vertically underneath the board, making it possible to link components without direct wiring. The image below shows a how the connections are made internally on a typical breadboard.
 
 ![Breadboard connections](images/breadboard_connections.png)
 
