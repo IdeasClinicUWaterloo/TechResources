@@ -39,4 +39,9 @@ This means that to collaborate with other people on your project, each person ha
 If you have errors in VS Code/PlatformIO saying "#include errors detected. please update your includePath. ..." and/or "cannot open source file "freertos/FreeRTOS.h" (dependency of "Arduino.h")" but eveyrthing is compiling and uploading then you can ignore the issues and continue to work. 
 
 ### Connecting VS Code and PlatformIO with Git/GitHub 
-Tutorial Video to follow: https://www.youtube.com/watch?v=NdgMuZBpyo8
+Tutorial video to follow: https://www.youtube.com/watch?v=NdgMuZBpyo8
+
+### Adding Code in PlatformIO
+1. To get to the file where you will add your code (main.cpp), you can look on the left panel and click on the Explorer button (first one) then under your project go to src > main.cpp. There you can add your code.
+2. If you would like to add more files (`.h`, `.cpp`, etc.), under src right click > New File... . Then name your file and add the file type (eg. `sensor.h` and/or `sensor.cpp`).
+3. Include a `.h` file in a `.cpp` file using `#include` to access the function declarations, constants, structures, and other definitions written in the header file (e.g., in `sensor.cpp`, write `#include "sensor.h"`). The function implementations can then be written in the corresponding .cpp file.
